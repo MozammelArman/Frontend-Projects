@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammed Mozammel Arman - Resume</title>
+    <style>
+        body {
+            background-color: #f3f3f3;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            padding: 40px 0;
+            margin: 0;
+        }
+
+        .resume-container {
+            background-color: white;
+            width: 800px;
+            padding: 50px 60px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            box-sizing: border-box;
+            border: 1px solid #e0e0e0;
+        }
+
+        /* Top thick black line */
+        hr.top-line {
+            border: 0;
+            border-top: 2px solid #333;
+            margin-bottom: 25px;
+            margin-top: 0;
+        }
+
+        /* Typography */
+        h1 {
+            font-size: 32px;
+            color: #444;
+            margin: 0 0 5px 0;
+            font-weight: 600;
+        }
+
+        .subtitle {
+            color: #8CC673;
+            font-size: 16px;
+            margin-bottom: 25px;
+            font-weight: 500;
+        }
+
+        h2 {
+            color: #8CC673;
+            font-size: 18px;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        p, li, div {
+            color: #333;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        /* Contact Info Section */
+        .contact-info {
+            margin-bottom: 30px;
+        }
+
+        .contact-info div {
+            margin-bottom: 2px;
+        }
+
+        /* Links */
+        a {
+            color: #2b8ccd;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Section Styling */
+        .section {
+            margin-bottom: 25px;
+        }
+
+        .section-title {
+            color: #8CC673;
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        /* Education & Experience entries */
+        .entry-header {
+            font-weight: 500;
+            margin-bottom: 2px;
+        }
+        
+        .entry-header a {
+            font-weight: bold;
+        }
+
+        .date-location {
+            font-size: 13px;
+            margin-bottom: 5px;
+            color: #333;
+        }
+
+        ul.bullet-points {
+            margin: 5px 0;
+            padding-left: 20px;
+        }
+
+        ul.bullet-points li {
+            margin-bottom: 3px;
+        }
+
+        .skills-line {
+            font-size: 13px;
+            margin-top: 5px;
+        }
+
+        /* Specific tweaks for personal info */
+        .personal-grid {
+            display: grid;
+            grid-template-columns: 180px 1fr;
+            gap: 4px 10px;
+            font-size: 14px;
+            color: #333;
+        }
+
+        .personal-grid .label {
+            font-weight: 600;
+        }
+        
+        .profile-text {
+            margin: 0 0 10px 0;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="resume-container">
+        
+        <!-- Top Line -->
+        <hr class="top-line">
+
+        <!-- Header -->
+        <header>
+            <h1>Mohammed Mozammel Arman</h1>
+            <div class="subtitle">CSE Undergraduate</div>
+            
+            <div class="contact-info">
+                <div>22 no, Nazimuddin Road</div>
+                <div>Dhaka, Bangladesh</div>
+                <div>01680000295</div>
+                <div>algorithm.arman@gmail.com</div>
+                <div>mozammelarman295@gmail.com</div>
+            </div>
+        </header>
+
+        <!-- Profile / About Section -->
+        <section class="section">
+            <div class="section-title">Profile</div>
+            <p class="profile-text">
+                Computer Science and Engineering undergraduate with hands-on experience in Python, SQL, Java, web development and machine learning projects. Interested in data analytics, data engineering and automation. Currently developing practical skills in Excel, SQL, Python and data analysis while building software and academic projects.
+            </p>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section">
+            <div class="section-title">Skills</div>
+            <p class="skills-list">
+                <strong>Languages:</strong> Python, C, C++, Java, SQL<br>
+                <strong>Relevant Coursework:</strong> Data Structures & Algorithms • DBMS • Artificial Intelligence • Neural Networks • Software Engineering • Operating Systems • Object-Oriented Programming
+            </p>
+        </section>
+
+        <!-- Education Section -->
+        <section class="section">
+            <div class="section-title">Education</div>
+            
+            <div style="margin-bottom: 15px;">
+                <div class="entry-header">
+                    <a href="#">University of Development Alternative</a> - Bachelor of Science
+                </div>
+                <div class="date-location">Expected to graduate in 2028</div>
+                <p style="margin: 0;">Computer Science and Engineering | GPA: 3.5/4.0</p>
+            </div>
+
+            <div style="margin-bottom: 15px;">
+                <div class="entry-header">
+                    <a href="#">New Model Degree College</a> - High School Certificate
+                </div>
+                <div class="date-location">2022 - 2023</div>
+                <p style="margin: 0;">GPA: 4.0/5.0</p>
+            </div>
+
+            <div>
+                <div class="entry-header">
+                    <a href="#">Ahmed Bawani Academy School and College</a> - Senior School Certificate
+                </div>
+                <div class="date-location">2015 - 2021</div>
+                <p style="margin: 0;">GPA: 4.5/5.0</p>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="section">
+            <div class="section-title">Experience</div>
+
+            <!-- Job 1 -->
+            <div style="margin-bottom: 20px;">
+                <div class="entry-header">
+                    <a href="#">Private ICT Tutor</a>
+                </div>
+                <div class="date-location">Freelance</div>
+                <ul class="bullet-points">
+                    <li>Teach HSC-level ICT topics including C programming, database systems, SQL, algorithms, HTML and networking.</li>
+                    <li>Prepare customized lessons, exercises, exams and solution materials.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section">
+            <div class="section-title">Projects</div>
+
+            <div style="margin-bottom: 20px;">
+                <div class="entry-header">
+                    <a href="#">Java Voting System</a>
+                </div>
+                <div class="date-location">Java • OOP • MySQL</div>
+                <ul class="bullet-points">
+                    <li>Developed a voting application with voter and admin functionality.</li>
+                    <li>Implemented course completion and academic progress tracking features.</li>
+                    <li>Planned Excel database integration for structured academic data management.</li>
+                    <li>Implemented vote storage, voter verification and database-based data management.</li>
+                </ul>
+            </div>
+
+            <div>
+                <div class="entry-header">
+                    <a href="#">Marketing Strategy & Campaigns</a>
+                </div>
+                <ul class="bullet-points">
+                    <li>Develop and execute comprehensive marketing strategies and campaigns that align with the company's goals and objectives.</li>
+                    <li>Lead, mentor, and manage a high-performing marketing team, fostering a collaborative and results-driven work environment.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Activities Section -->
+        <section class="section">
+            <div class="section-title">Activities</div>
+            <ul class="bullet-points">
+                <li><strong>UODA student/community activities:</strong> Technology and programming projects, Photography / film / creative activities.</li>
+            </ul>
+        </section>
+
+        <!-- Personal Information Section -->
+        <section class="section">
+            <div class="section-title">Personal Information</div>
+            <div class="personal-grid">
+                <div class="label">Father's name:</div>
+                <div>Ayub Rana</div>
+                
+                <div class="label">Mother's name:</div>
+                <div>Fatema Begum</div>
+                
+                <div class="label">Nationality:</div>
+                <div>Bangladeshi</div>
+                
+                <div class="label">Present Address:</div>
+                <div>22 no, Nazimuddin road</div>
+                
+                <div class="label">Permanent Address:</div>
+                <div>22 no, Nazimuddin road</div>
+            </div>
+        </section>
+
+        <!-- Internet Section -->
+        <section class="section">
+            <div class="section-title">Across the Internet</div>
+            <ul class="bullet-points" style="list-style: none; padding-left: 0;">
+                <li>LinkedIn: <a href="https://bd.linkedin.com/in/mozammel-arman" target="_blank">https://bd.linkedin.com/in/mozammel-arman</a></li>
+                <li>Facebook: <a href="https://www.facebook.com/mozammelarman1" target="_blank">https://www.facebook.com/mozammelarman1</a></li>
+                <li>Website: <a href="https://mozammelarman.github.io/Personal-Portfolio-Website/" target="_blank">https://mozammelarman.github.io/Personal-Portfolio-Website/</a></li>
+            </ul>
+        </section>
+
+    </div>
+
+</body>
+</html>
